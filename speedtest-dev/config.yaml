@@ -1,0 +1,24 @@
+---
+name: "Speedtest-dev"
+description: "Speedtest-cli addon development version"
+version: dev
+slug: "speedtest_addon_dev"
+init: false
+boot: manual
+startup: once
+arch:
+  - amd64
+homeassistant_api: true
+options:
+  accept_eula: false
+  accept_rgpd: false
+  debug: false
+  print_closest_servers: false
+schema:
+  accept_eula: bool
+  accept_rgpd: bool
+  server_id: int?
+  debug: bool?
+  print_closest_servers: bool?
+url: https://github.com/MrSuicideParrot/hassio-speedtest-addon-dev
+image: ghcr.io/mrsuicideparrot/hassio-speedtest-addon-dev-{arch}

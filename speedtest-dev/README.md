@@ -1,0 +1,1 @@
+# Speedtest Home Assistant Addon - DEV version
